@@ -377,21 +377,21 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="88.0" y="1032.4" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="1058.4" class="tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1021.2" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1047.2" class="tap">LG(X)</text>
+<text x="170.0" y="1047.2" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1015.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1041.6000000000001" class="tap">LG(C)</text>
+<text x="226.0" y="1041.6000000000001" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1021.2" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1047.2" class="tap">LG(V)</text>
+<text x="282.0" y="1047.2" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1026.8000000000002" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="1052.8000000000002" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="338.0" y="1052.8000000000002" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1026.8000000000002" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1052.8000000000002" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="562.0" y="1052.8000000000002" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1021.2" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1047.2" class="tap">LG(V)</text>
+<text x="618.0" y="1047.2" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1015.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1041.6000000000001" class="tap">LG(C)</text>
+<text x="674.0" y="1041.6000000000001" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1021.2" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1047.2" class="tap">LG(X)</text>
+<text x="730.0" y="1047.2" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1032.4" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1058.4" class="tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1032.4" width="52.0" height="52.0" class="key"/>
@@ -419,21 +419,21 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="88.0" y="1144.4" width="52.0" height="52.0" class="held key"/>
 <text x="114.0" y="1170.4" class="held tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1133.2" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1159.2" class="tap">LG(X)</text>
+<text x="170.0" y="1159.2" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1127.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1153.6000000000001" class="tap">LG(C)</text>
+<text x="226.0" y="1153.6000000000001" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1133.2" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1159.2" class="tap">LG(V)</text>
+<text x="282.0" y="1159.2" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1138.8000000000002" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="1164.8000000000002" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="338.0" y="1164.8000000000002" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1138.8000000000002" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1164.8000000000002" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="562.0" y="1164.8000000000002" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1133.2" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1159.2" class="tap">LG(V)</text>
+<text x="618.0" y="1159.2" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1127.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1153.6000000000001" class="tap">LG(C)</text>
+<text x="674.0" y="1153.6000000000001" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1133.2" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1159.2" class="tap">LG(X)</text>
+<text x="730.0" y="1159.2" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1144.4" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1170.4" class="tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1144.4" width="52.0" height="52.0" class="key"/>
@@ -463,13 +463,13 @@ path.combo {
 <text x="282.0" y="1366.4" class="tap" style="font-size: 60%">&amp;u_to_U_BASE</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1346.0000000000002" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1346.0000000000002" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1372.0000000000002" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="562.0" y="1372.0000000000002" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1340.4" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1366.4" class="tap">LG(V)</text>
+<text x="618.0" y="1366.4" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1334.8000000000002" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1360.8000000000002" class="tap">LG(C)</text>
+<text x="674.0" y="1360.8000000000002" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1340.4" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1366.4" class="tap">LG(X)</text>
+<text x="730.0" y="1366.4" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1351.6000000000001" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1377.6000000000001" class="tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1351.6000000000001" width="52.0" height="52.0" class="key"/>
@@ -540,13 +540,13 @@ path.combo {
 <text x="282.0" y="1685.6000000000001" class="tap" style="font-size: 60%">&amp;u_to_U_BASE</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1665.2000000000003" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1665.2000000000003" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1691.2000000000003" class="tap" style="font-size: 78%">LS(LG(Z))</text>
+<text x="562.0" y="1691.2000000000003" class="tap">REDO</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="1659.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1685.6000000000001" class="tap">LG(V)</text>
+<text x="618.0" y="1685.6000000000001" class="tap">PASTE</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="1654.0000000000002" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1680.0000000000002" class="tap">LG(C)</text>
+<text x="674.0" y="1680.0000000000002" class="tap">COPY</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="1659.6000000000001" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1685.6000000000001" class="tap">LG(X)</text>
+<text x="730.0" y="1685.6000000000001" class="tap">CUT</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="1670.8000000000002" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1696.8000000000002" class="tap">UNDO</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1670.8000000000002" width="52.0" height="52.0" class="key"/>
