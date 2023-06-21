@@ -16,8 +16,6 @@
 &kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LBKT,          &kp COMMA,         &kp DOT,           &kp RBKT,         \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,
 
-
-
 // Adding layers:
 // https://github.com/manna-harbour/miryoku/discussions/85
 #define MIRYOKU_LAYER_LIST \
