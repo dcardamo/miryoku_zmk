@@ -282,5 +282,4 @@ parse_config:
         LG(C): "COPY"
         LG(V): "PASTE"
         LS(LG(Z)): "REDO"
-
     zmk_combos: {}
