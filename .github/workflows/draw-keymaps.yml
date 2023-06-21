@@ -9,6 +9,8 @@ on:
       # - 'config/boards/*/*/*.keymap'
 jobs:
   draw:
+    permissions:
+      contents: write
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
       keymap_patterns: "config/corne*.keymap" # path to the keymaps to parse
