@@ -1,5 +1,5 @@
 # Example for using the keymap-drawer ZMK user config workflow
-name: Draw ZMK keymaps
+name: Dan build
 on:
   workflow_dispatch: # can be triggered manually
   push: # automatically run on changes to following paths
@@ -9,7 +9,7 @@ on:
       - "miryoku/*.h"
       - "miryoku/*.dtsi"
 jobs:
-  build:
+  build_corneish_zen:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
