@@ -122,7 +122,25 @@ draw_config:
 parse_config:
     preprocess: true
     skip_binding_parsing: false
-    raw_binding_map: {}
+    raw_binding_map:
+        "&bootloader": "Boot"
+        "&u_macro_btn3": "Middle"
+        "&u_macro_btn1": "Left"
+        "&u_macro_btn2": "Right"
+        "&u_to_U_TAP": "Tap"
+        "&u_to_U_EXTRA": "Extra"
+        "&u_to_U_BASE": "Base"
+        "&caps_word": "CapsWord"
+        "&u_to_U_NUM": "Num"
+        "&u_to_U_NAV": "Nav"
+        "&u_to_U_SYM": "Sym"
+        "&u_to_U_MOUSE": "Mouse"
+        "&u_to_U_FUN": "Func"
+        "&u_to_U_MEDIA": "Media"
+        "&u_macro_u_bt_sel_0": "Clr 0"
+        "&u_macro_u_bt_sel_1": "Clr 1"
+        "&u_macro_u_bt_sel_2": "Clr 2"
+        "&u_macro_u_bt_sel_3": "Clr 3"
     sticky_label: sticky
     trans_legend:
         t: ▽
@@ -264,8 +282,5 @@ parse_config:
         LG(C): "COPY"
         LG(V): "PASTE"
         LS(LG(Z)): "REDO"
-        "&u_macro_btn3": "Middle"
-        "&u_macro_btn1": "Left"
-        "&u_macro_btn2": "Right"
 
     zmk_combos: {}
