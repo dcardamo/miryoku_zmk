@@ -7,7 +7,6 @@ on:
       - "config/*.keymap"
       - "config/*.dtsi"
       # - 'config/boards/*/*/*.keymap'
-
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
