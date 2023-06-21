@@ -260,4 +260,12 @@ parse_config:
         NUHS: "#"
         TILDE2: "~"
         LG(Z): "UNDO"
+        LG(X): "CUT"
+        LG(C): "COPY"
+        LG(V): "PASTE"
+        LS(LG(Z)): "REDO"
+        "&u_macro_btn3": "Middle"
+        "&u_macro_btn1": "Left"
+        "&u_macro_btn2": "Right"
+
     zmk_combos: {}
