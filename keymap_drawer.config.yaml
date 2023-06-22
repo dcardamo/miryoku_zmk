@@ -109,9 +109,9 @@ draw_config:
         }
         /* End Tabler Icons Cleanup */
     shrink_wide_legends: 7
-    glyph_tap_size: 14
-    glyph_hold_size: 12
-    glyph_shifted_size: 10
+    glyph_tap_size: 50
+    glyph_hold_size: 50
+    glyph_shifted_size: 50
     glyphs: {}
     glyph_urls:
         tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
@@ -282,4 +282,9 @@ parse_config:
         LG(C): "COPY"
         LG(V): "PASTE"
         LS(LG(Z)): "REDO"
+        LEFT: "$$material:arrow_left$$"
+        DOWN: "$$material:arrow_drop_down$$"
+        UP: "$$material:arrow_drop_up$$"
+        RIGHT: "$$material:arrow_right$$"
+
     zmk_combos: {}
