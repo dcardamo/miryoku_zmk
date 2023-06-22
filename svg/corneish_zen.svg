@@ -1,4 +1,18 @@
 <svg width="900.0" height="3693.1837365484103" viewBox="0 0 900.0 3693.1837365484103" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="material:arrow_drop_up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m280-400 200-201 200 201H280Z"/></svg>
+</svg>
+<svg id="material:arrow_right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M400-280v-400l200 200-200 200Z"/></svg>
+</svg>
+<svg id="material:arrow_drop_down">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-360 280-559h400L480-360Z"/></svg>
+</svg>
+<svg id="material:arrow_left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M560-280 360-480l200-200v400Z"/></svg>
+</svg>
+</defs>/* end glyphs */
 <style>/* inherit to force styles through use tags*/
 svg path {
     fill: inherit;
@@ -516,13 +530,13 @@ path.combo {
 <text x="282.0" y="1469.6122678357856" class="tap">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1450.6122678357856" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1450.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1476.6122678357856" class="tap">LEFT</text>
+<use href="#material:arrow_left" xlink:href="#material:arrow_left" x="549.5" y="1451.6122678357856" height="50" width="25.0" class="tap glyph material:arrow_left"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1469.6122678357856" class="tap">DOWN</text>
+<use href="#material:arrow_drop_down" xlink:href="#material:arrow_drop_down" x="605.5" y="1444.6122678357856" height="50" width="25.0" class="tap glyph material:arrow_drop_down"/>
 <rect rx="6.0" ry="6.0" x="648.0" y="1436.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1462.6122678357856" class="tap">UP</text>
+<use href="#material:arrow_drop_up" xlink:href="#material:arrow_drop_up" x="661.5" y="1437.6122678357856" height="50" width="25.0" class="tap glyph material:arrow_drop_up"/>
 <rect rx="6.0" ry="6.0" x="704.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1469.6122678357856" class="tap">RIGHT</text>
+<use href="#material:arrow_right" xlink:href="#material:arrow_right" x="717.5" y="1444.6122678357856" height="50" width="25.0" class="tap glyph material:arrow_right"/>
 <rect rx="6.0" ry="6.0" x="760.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1483.6122678357856" class="tap" style="font-size: 88%">CapsWord</text>
 <text x="786.0" y="1459.6122678357856" class="shifted">CAPS</text>
