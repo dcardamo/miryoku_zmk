@@ -1,0 +1,392 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  Base:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: LSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
+  - ''
+  - ''
+  - {t: Z, h: Button}
+  - {t: X, h: RALT}
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - {t: ., h: RALT}
+  - {t: /, h: Button}
+  - ''
+  - {t: ESC, h: Media}
+  - {t: SPACE, h: Nav}
+  - {t: TAB, h: Mouse}
+  - {t: RET, h: Sym}
+  - {t: BSPC, h: Num}
+  - {t: DEL, h: Fun}
+  Extra:
+  - ''
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - ''
+  - ''
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - G
+  - K
+  - {t: N, h: LSHFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - ''
+  - ''
+  - {t: Z, h: Button}
+  - {t: X, h: RALT}
+  - C
+  - D
+  - V
+  - M
+  - H
+  - ','
+  - {t: ., h: RALT}
+  - {t: /, h: Button}
+  - ''
+  - {t: ESC, h: Media}
+  - {t: SPACE, h: Nav}
+  - {t: TAB, h: Mouse}
+  - {t: RET, h: Sym}
+  - {t: BSPC, h: Num}
+  - {t: DEL, h: Fun}
+  Tap: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, '''', '', '', Z, X, C, V, B, N, M, ',', ., /, '', ESC, SPACE, TAB, RET, BSPC, DEL]
+  Button:
+  - ''
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - {t: UNDO, type: held}
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - Middle
+  - Left
+  - Right
+  - Right
+  - Left
+  - Middle
+  Nav:
+  - ''
+  - Boot
+  - Tap
+  - Extra
+  - Base
+  - ''
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - $$material:arrow_left$$
+  - $$material:arrow_drop_down$$
+  - $$material:arrow_drop_up$$
+  - $$material:arrow_right$$
+  - {t: CapsWord, s: CAPS}
+  - ''
+  - ''
+  - ''
+  - RALT
+  - Num
+  - Nav
+  - ''
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - INS
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - RET
+  - BSPC
+  - DEL
+  Mouse:
+  - ''
+  - Boot
+  - Tap
+  - Extra
+  - Base
+  - ''
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - KP 4
+  - KP 2
+  - KP 8
+  - KP 6
+  - ''
+  - ''
+  - ''
+  - ''
+  - RALT
+  - Sym
+  - Mouse
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Right
+  - Left
+  - Middle
+  Media:
+  - ''
+  - Boot
+  - Tap
+  - Extra
+  - Base
+  - ''
+  - RGB EFF
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB TOG
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - EP TOG
+  - ''
+  - ''
+  - ''
+  - RALT
+  - Func
+  - Media
+  - ''
+  - {t: BT, h: '0', s: Clr 0}
+  - {t: BT, h: '1', s: Clr 1}
+  - {t: BT, h: '2', s: Clr 2}
+  - {t: BT, h: '3', s: Clr 3}
+  - {t: OUT TOG, s: OUT USB}
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - STOP
+  - PP
+  - MUTE
+  Num:
+  - ''
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - ''
+  - Base
+  - Extra
+  - Tap
+  - Boot
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - Num
+  - Nav
+  - RALT
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ''
+  - {type: held}
+  - ''
+  Sym:
+  - ''
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - Base
+  - Extra
+  - Tap
+  - Boot
+  - ''
+  - ''
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - Sym
+  - Mouse
+  - RALT
+  - ''
+  - ''
+  - (
+  - )
+  - _
+  - {type: held}
+  - ''
+  - ''
+  Fun:
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - ''
+  - Base
+  - Extra
+  - Tap
+  - Boot
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - ''
+  - Func
+  - Media
+  - RALT
+  - ''
+  - ''
+  - APP
+  - SPACE
+  - TAB
+  - ''
+  - ''
+  - {type: held}
+  Gaming: ['', TAB, Q, W, E, R, T, '1', '2', '3', '4', '', '', LSHFT, A, S, D, F, G, KP 4, KP 2, KP 8, KP 6, '', '', ESC, Z, X, C, V, B, '[', ',', ., ']', '', LCTRL,
+    SPC, LALT, Right, Left, Middle]
